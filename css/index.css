@@ -13,13 +13,21 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, system-ui, sans-serif;
+  font-family: 'Bodoni Moda', serif;
   color: var(--darkgray);
   background-color: var(--white);
+}
+.post-tag {
+  font-family: -apple-system, system-ui, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
 }
 p:last-child {
   margin-bottom: 0;

@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: The Hollow Star
 tags: world
-description: The world of the real, the world from which you hail.
+description: Millenia and light years away from home.
 order: 2
 ---
 
