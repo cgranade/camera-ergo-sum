@@ -1,10 +1,11 @@
 ---
 layout: layouts/post.njk
-title: About Me
+title: About the Campaign
 templateClass: tmpl-post
 eleventyNavigation:
-  key: About Me
-  order: 3
+  key: About the Campaign
+  order: 6
 ---
+
 
 I am a person that writes stuff.

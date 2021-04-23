@@ -1,0 +1,22 @@
+---
+layout: layouts/post.njk
+title: Characters
+templateClass: tmpl-post
+eleventyNavigation:
+  key: Characters
+  order: 4
+---
+
+<ul>
+{% for character in collections.character | sortByOrder %}
+  <li>
+    <a href="{{ character.url | url }}" class="postlist-link">{% if character.data.title %}{{ character.data.title }}{% else %}<code>{{ character.url }}</code>{% endif %}</a>
+    {% for tag in character.data.tags | filterTagList %}
+      {% if tag != "character" %}
+        {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+        <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+      {% endif %}
+    {% endfor %}
+  </li>
+{% endfor %}
+</ul>

@@ -46,6 +46,12 @@ module.exports = function(eleventyConfig) {
     return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
   })
 
+  eleventyConfig.addFilter("sortByOrder", posts => {
+    /** @type Array */
+    let newPosts = (posts || []).slice();
+    return newPosts.sort((a, b) =>  a.order - b.order);
+  })
+
   // Create an array of all tags
   eleventyConfig.addCollection("tagList", function(collection) {
     let tagSet = new Set();

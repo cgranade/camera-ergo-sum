@@ -1,0 +1,19 @@
+---
+layout: layouts/post.njk
+title: Worlds
+templateClass: tmpl-post
+eleventyNavigation:
+  key: Worlds
+  order: 3
+---
+
+{% set postslist = collections.world %}
+<ul>
+{# TODO: Sort by order doesn't seem to work here. #}
+{% for world in collections.world | sortByOrder %}
+  <li>
+    <a href="{{ world.url | url }}" class="postlist-link">{% if world.data.title %}{{ world.data.title }}{% else %}<code>{{ world.url }}</code>{% endif %}:</a>
+    {{ world.data.description }}
+  </li>
+{% endfor %}
+</ul>
