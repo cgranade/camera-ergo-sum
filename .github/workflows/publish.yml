@@ -9,6 +9,10 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@master
+      - name: npm install
+        run: |
+            npm install
+        shell: pwsh
       - name: Build
         uses: TartanLlama/actions-eleventy@v1.1
       - name: Deploy
