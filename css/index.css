@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&Lora:ital,wght@0,400;0,700;1,700&display=swap');
+
 /* Colors */
 :root {
   --lightgray: #e0e0e0;
   --gray: #C0C0C0;
-  --darkgray: #333;
-  --navy: #17050F;
-  --blue: #082840;
-  --white: #fff;
+  --body: rgb(179, 179, 179);
+  --visited: #9c215a;
+  --link: #ad2929;
+  --bg: rgb(0, 0, 0);
 }
 
 /* Global stylesheet */
@@ -13,15 +15,13 @@
   box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat&display=swap');
-
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Bodoni Moda', serif;
-  color: var(--darkgray);
-  background-color: var(--white);
+  font-family: 'Lora', serif;
+  color: var(--body);
+  background-color: var(--bg);
 }
 .post-tag {
   font-family: -apple-system, system-ui, sans-serif;
@@ -42,10 +42,10 @@ p,
   line-height: 1.45;
 }
 a[href] {
-  color: var(--blue);
+  color: var(--link);
 }
 a[href]:visited {
-  color: var(--navy);
+  color: var(--visited);
 }
 main {
   padding: 1rem;
@@ -179,7 +179,7 @@ code {
 .postlist-date,
 .postlist-item:before {
   font-size: 0.8125em; /* 13px /16 */
-  color: var(--darkgray);
+  color: var(--body);
 }
 .postlist-date {
   word-spacing: -0.5px;
@@ -209,7 +209,7 @@ code {
   font-size: 0.6875em; /* 11px /16 */
   padding: 0.09090909090909em 0.3636363636364em; /* 1px 4px /11 */
   margin-left: 0.8em; /* 8px /10 */
-  color: var(--darkgray);
+  color: var(--body);
   border: 1px solid var(--gray);
   border-radius: 0.25em; /* 3px /12 */
   text-decoration: none;

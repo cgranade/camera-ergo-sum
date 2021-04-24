@@ -33,6 +33,8 @@ The real world and each simulation have their own Skill list, similar to FATE Co
 - Both lists: The Skill is used at the rating of the projected character, but cannot differ from the primary character by too much (see _Conceptualization_, below).
 - Simulated world only: The Skill is used by the projected character only.
 
+<!-- TODO: clarify how stunts act across primary / projected. -->
+
 ### Conceptualization
 
 One Skill on the real world list deserves special mention: Conceptualization. This Skill affects how well the Historian can affect their projection in during a dive.
@@ -45,4 +47,23 @@ One Skill on the real world list deserves special mention: Conceptualization. Th
 Additionally, Conceptualization affects how much a player's primary and projected characters Skills may differ. In particular, the sum of the differences between all Skill ratings that are on both the real and simulated worlds cannot exceed the primary character's Conceptualization.
 
 > Starlight has a Good Conceptualization (+3), so her skills may vary from her projection by at most three points. Starlight has an Physique of 2, while Janet has a Physique of 3, costing one point of difference. Similarly, Starlight has Great Athletics (+4), while Janet has only Fair (+2), allowing Janet to spend her Skills on other parts of 1970s life. This is a total of three differences, so Starlight and Janet cannot differ any further on those Skills available to both lists.
+
+#### Stunts
+
+- **Intervention**: You may use your Conceptualization Skill to create an advantage, modifying the environment in a simulation to your benefit. These modifications must be minor in scope, and must fit within the world being simulated.
+
+### Immersion
+
+Another important Skill on the real world list is Immersion. This Skill describes how well you can truly become your projection.
+
+- **Overcome**: Cannot be used.
+- **Create Advantage**: TODO
+- **Attack**: Cannot be used.
+- **Defend**: TODO
+
+<!-- TODO: describe how this sets sync stress. -->
+
+#### Stunts
+
+- **Internalization**: You identify with your projection so very strongly that once per scene, you may buy mental damage with your primary character's mental stress track or as a mental consequence, instead of using your projected character's sync stress track.
 
